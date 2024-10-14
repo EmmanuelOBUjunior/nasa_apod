@@ -17,3 +17,7 @@
   min-height: 100vh;
   display: flex;
 }
+
+.bgImage{
+  width: 100%;
+}
