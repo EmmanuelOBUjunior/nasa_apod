@@ -1,10 +1,11 @@
+import Main from "./components/Main"
 
 function App() {
  
 
   return (
     <>
-      <h1>New page</h1>
+      <Main/>
     </>
   )
 }
