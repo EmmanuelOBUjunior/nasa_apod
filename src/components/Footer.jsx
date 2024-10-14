@@ -1,5 +1,9 @@
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+        <div>
+            <h2>The Brutal Martian Lanscape</h2>
+        </div>
+    </footer>
   )
 }
