@@ -1,5 +1,7 @@
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <div>
+        <h2>The Brutal Martian Landscape</h2>
+    </div>
   )
 }
