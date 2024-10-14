@@ -42,3 +42,9 @@ footer{
   justify-content: space-between;
   gap: 1rem;
 }
+
+.bgGradient{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
