@@ -40,6 +40,16 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  padding:1rem;
+}
+
+footer h2{
+  font-size: 1.4rem
+}
+
+footer h1{
+  font-size: 0.9rem;
+  font-weight: 200;
 }
 
 .bgGradient {
