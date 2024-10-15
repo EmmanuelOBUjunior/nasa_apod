@@ -12,9 +12,9 @@ function App() {
 
   useEffect(() => {
     const fetchNASAData = async()=>{
-      // const NASA_API = import.meta.env.NASA_API_KEY
-      // const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API}`
-      const url = `https://api.nasa.gov/planetary/apod?api_key=wua2QTeWBRfs7lBwdzzpMxwDPYo6l4ZhyQHQVC8N`
+      const NASA_API = import.meta.env.VITE_NASA_API_KEY
+      const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API}`
+      // const url = `https://api.nasa.gov/planetary/apod?api_key=wua2QTeWBRfs7lBwdzzpMxwDPYo6l4ZhyQHQVC8N`
 
       try{
         const res = await fetch(url)
