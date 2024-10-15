@@ -13,7 +13,7 @@ export default function Sidebar() {
             aliquam accusantium!
           </p>
         </div>
-        <i className="fa-solid fa-arrow-right"></i>
+        <button><i className="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   );
