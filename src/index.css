@@ -85,4 +85,6 @@ footer{
 
 .sidebarContents button{
   background: transparent;
+  outline: none;
+  border:none
 }
