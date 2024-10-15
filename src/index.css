@@ -96,7 +96,7 @@ footer {
     position:relative;
     inset:unset;
     min-width:30%;
-    box-shadow: 0 0 10px 1px #151414;
+    box-shadow: 0 0 40px 1px #151414;
   }
   .sidebarContents{
     margin:unset;
