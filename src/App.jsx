@@ -27,7 +27,7 @@ function App() {
       }
 
     }
-    fetchNASAData()
+    // fetchNASAData()
   }, []);
 
   return (
