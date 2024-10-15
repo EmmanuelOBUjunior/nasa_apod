@@ -43,6 +43,11 @@ footer {
   padding:1rem;
 }
 
+footer div{
+  display: flex;
+  flex-direction: column;
+}
+
 footer h2{
   font-size: 1.4rem
 }
