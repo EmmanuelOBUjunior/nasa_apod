@@ -151,7 +151,7 @@ footer h1{
 .loadingState i{
   font-size: 4rem;
   opacity: 0.3;
-  animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
