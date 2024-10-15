@@ -2,7 +2,9 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
         <div className="bgOverlay"></div>
-        <div className="sidebarContents"></div>
+        <div className="sidebarContents">
+          
+        </div>
         <h2>The Brutal Martian Landscape</h2>
         <div>
             <h3>Description</h3>
