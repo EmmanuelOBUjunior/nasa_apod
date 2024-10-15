@@ -143,7 +143,24 @@ footer h1{
 
 .loadingState{
   display: flex;
-  align-items:center
+  align-items:center;
+  justify-content: center;
+  flex: 1
+}
+
+.loadingState i{
+  font-size: 4rem;
+  opacity: 0.3;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width: 640px) {
