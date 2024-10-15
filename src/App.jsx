@@ -26,7 +26,7 @@ function App() {
         console.log(err.message);
       }
     };
-    // fetchNASAData()
+    fetchNASAData()
   }, []);
 
   return (
@@ -39,7 +39,7 @@ function App() {
         </div>
       )}
       {showModal && <Sidebar handleToggleModal={handleToggleModal} />}
-      <Footer handleToggleModal={handleToggleModal} />
+      {data && <Footer handleToggleModal={handleToggleModal} />}
     </>
   );
 }
