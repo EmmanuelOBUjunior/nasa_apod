@@ -56,3 +56,7 @@ footer{
   display: flex;
   flex-direction: column;
 }
+
+.bgOverlay{
+  background-color: black;
+}
