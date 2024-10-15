@@ -53,8 +53,13 @@ footer button{
   border: none;
   outline: none;
   color:white;
-  padding:1rem
-  cursor: pointer
+  padding:1rem;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+footer button:hover{
+  opacity: 0.7
 }
 
 footer button i{
