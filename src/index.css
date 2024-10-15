@@ -78,3 +78,7 @@ footer{
   width: 90%;
   margin-left: auto;
 }
+
+.sidebarContents div{
+  flex: 1;
+}
