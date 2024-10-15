@@ -15,7 +15,7 @@ export default function Footer({handleToggleModal}) {
   )
 }
 
-Footer.propTypes(){
+Footer.propTypes={
   handleToggleModal: PropTypes.func.isRequired
 }
 
