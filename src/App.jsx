@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   const [showModal, setshowModal] = useState(false);
+  const [data, setData] = useState({})
 
   function handleToggleModal() {
     setshowModal(!showModal);
@@ -18,8 +19,9 @@ function App() {
 
       try{
         const res = await fetch(url)
-        const data = await res.json()
-        console.log("DATA\n",data)
+        const apiData = await res.json()
+        setData(apiData)
+        console.log("DATA\n",apiData)
       }catch(err){
         console.log(err.message)
       }
