@@ -121,7 +121,17 @@ footer h1{
   border: none;
   margin-right: auto;
   color: white;
-  cursor: pointer
+  cursor: pointer;
+  padding:1rem;
+  transition-duration: 200ms
+}
+
+.sidebarContents button i{
+  font-size: 1.2rem
+}
+
+.sidebarContents button:hover{
+  opacity: 0.7
 }
 
 @media (min-width: 640px) {

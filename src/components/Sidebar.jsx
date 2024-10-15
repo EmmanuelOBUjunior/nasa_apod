@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 export default function Sidebar({handleToggleModal}) {
   return (
     <div className="sidebar">
@@ -17,4 +18,8 @@ export default function Sidebar({handleToggleModal}) {
       </div>
     </div>
   );
+}
+
+Sidebar.propTypes = {
+  handleToggleModal: PropTypes.func.isRequired
 }
