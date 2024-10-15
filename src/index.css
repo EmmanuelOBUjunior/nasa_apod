@@ -48,6 +48,10 @@ footer div{
   flex-direction: column;
 }
 
+footer button{
+  background: transparent;
+}
+
 footer h2{
   font-size: 1.4rem
 }
