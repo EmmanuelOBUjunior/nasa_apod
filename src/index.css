@@ -72,5 +72,6 @@ footer{
   height: 100%;
   background: #151414;
   max-width: 800px;
-  width: 90%
+  width: 90%;
+  margin-left: auto;
 }
