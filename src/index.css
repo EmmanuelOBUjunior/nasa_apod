@@ -91,4 +91,12 @@ footer {
   cursor: pointer
 }
 
+@media (min-width: 640px) {
+  .sidebar{
+    position:relative;
+    inset:unset;
+    min-width:30%;
+  }
+}
+
 
