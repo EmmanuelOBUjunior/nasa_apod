@@ -21,7 +21,7 @@
 #root {
   min-height: 100vh;
   display: flex;
-  position: relative;
+  display: relative;
 }
 
 .bgImage {
@@ -82,7 +82,7 @@ footer h1{
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   inset: 0;
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ footer h1{
   position: absolute;
   inset: 0;
   background-color: #151414;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .sidebarContents {
@@ -143,6 +143,7 @@ footer h1{
   }
   .sidebarContents{
     margin:unset;
+    width:100%;
   }
 }
 
