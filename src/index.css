@@ -64,3 +64,9 @@ footer{
   background-color:#151414;
   opacity: 0.5;
 }
+
+.sidebarContents{
+  z-index: 15;
+  position: relative;
+  display:flex
+}
