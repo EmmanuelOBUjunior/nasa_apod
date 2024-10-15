@@ -58,6 +58,7 @@ footer{
 }
 
 .bgOverlay{
-  background-color: black;
-  inset:0
+  position: absolute;
+  inset:0;
+  background-color:#151414;
 }
