@@ -68,5 +68,9 @@ footer{
 .sidebarContents{
   z-index: 15;
   position: relative;
-  display:flex
+  display:flex;
+  height: 100%;
+  background: #151414;
+  max-width: 800px;
+  width: 90%
 }
