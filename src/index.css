@@ -82,3 +82,7 @@ footer{
 .sidebarContents div{
   flex: 1;
 }
+
+.sidebarContents button{
+  background: transparent;
+}
