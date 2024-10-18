@@ -153,6 +153,10 @@ footer h1{
   gap: 0.5rem
 }
 
+.descriptionContainer p{
+  line-height: 1.6rem;
+}
+
 .descriptionTitle{
   font-size: 1.1rem;
   font-weight: 200;
