@@ -32,14 +32,14 @@ function App() {
   return (
     <>
       {data ? (
-        <Main />
+        <Main data = {data}/>
       ) : (
         <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
       {showModal && <Sidebar handleToggleModal={handleToggleModal} />}
-      {data && <Footer handleToggleModal={handleToggleModal} />}
+      {data && <Footer handleToggleModal={handleToggleModal} data = {data}/>}
     </>
   );
 }
