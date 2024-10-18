@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-export default function Sidebar({handleToggleModal}) {
+export default function Sidebar({handleToggleModal, data}) {
   return (
     <div className="sidebar">
       <div className="bgOverlay" onClick={handleToggleModal}></div>
