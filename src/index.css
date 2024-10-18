@@ -189,6 +189,7 @@ footer h1{
     position:relative;
     inset:unset;
     min-width:30%;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #151414;
   }
   .sidebarContents{
