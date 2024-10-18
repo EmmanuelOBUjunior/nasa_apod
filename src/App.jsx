@@ -38,7 +38,7 @@ function App() {
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
-      {showModal && <Sidebar handleToggleModal={handleToggleModal} />}
+      {showModal && <Sidebar handleToggleModal={handleToggleModal} data={data}/>}
       {data && <Footer handleToggleModal={handleToggleModal} data = {data}/>}
     </>
   );
