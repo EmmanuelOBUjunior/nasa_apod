@@ -26,6 +26,8 @@ function App() {
         return
       }
 
+      localStorage.clear()
+
       try {
         const res = await fetch(url);
         const apiData = await res.json();
