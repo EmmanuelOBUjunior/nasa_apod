@@ -20,7 +20,7 @@ function App() {
       const localKey = `NASA-${today}`
 
       if(localStorage.getItem(localKey)){
-        setData(JSON.parse(localStorage.getItem(localKey)))
+        const apiData = JSON.parse(localStorage.getItem(localKey))
       }
 
       try {
