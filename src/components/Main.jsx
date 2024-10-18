@@ -12,5 +12,5 @@ export default function Main({data}) {
 }
 
 Main.propTypes = {
-  data: PropTypes.string.isRequired
+  data: PropTypes.object.isRequired
 }
