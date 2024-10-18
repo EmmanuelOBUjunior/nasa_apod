@@ -5,7 +5,7 @@ export default function Sidebar({handleToggleModal, data}) {
       <div className="bgOverlay" onClick={handleToggleModal}></div>
       <div className="sidebarContents">
         <h2>{data.title}</h2>
-        <div>
+        <div className="descriptionContainer">
           <h3 className="descriptionTitle">Description</h3>
           <p>
             {data.explanation}
