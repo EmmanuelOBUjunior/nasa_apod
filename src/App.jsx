@@ -25,7 +25,6 @@ function App() {
         console.log("Fetched from cache!!!")
         return
       }
-
       localStorage.clear()
 
       try {
@@ -37,6 +36,7 @@ function App() {
       } catch (err) {
         console.log(err.message);
       }
+      
     };
     fetchNASAData()
   }, []);
