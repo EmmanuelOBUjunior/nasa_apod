@@ -6,7 +6,7 @@ export default function Sidebar({handleToggleModal, data}) {
       <div className="sidebarContents">
         <h2>{data.title}</h2>
         <div>
-          <h3>Description</h3>
+          <h3 className="descriptionTitle">Description</h3>
           <p>
             {data.explanation}
           </p>
