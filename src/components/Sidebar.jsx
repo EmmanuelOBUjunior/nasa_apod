@@ -19,5 +19,5 @@ export default function Sidebar({handleToggleModal, data}) {
 
 Sidebar.propTypes = {
   handleToggleModal: PropTypes.func.isRequired,
-  data: PropTypes.object
+  data: PropTypes.object.isRequired
 }
